@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: claudioggonzalez/test-gh-actions/prueba:${{ github.sha }}
+          tags: claudioggonzalez/test-gh-actions/nginx-me:${{ github.sha }}
